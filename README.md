@@ -1,1 +1,2 @@
-# corner-deviation-analysis
+
+building a model
