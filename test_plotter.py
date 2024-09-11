@@ -13,11 +13,8 @@ class TestPlotter(unittest.TestCase):
 
     def test_draw_plots(self):
         json_file = "https://ai-process-sandy.s3.eu-west-1.amazonaws.com/purge/deviation.json"
-    
         self.plotter.draw_plots(json_file)
-            
         files_in_directory = os.listdir(self.plots_dir)
-            
         expected_file_count = 3
             
         self.assertEqual(len(files_in_directory), expected_file_count)
