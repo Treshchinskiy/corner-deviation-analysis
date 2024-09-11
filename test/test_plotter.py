@@ -1,6 +1,6 @@
 import unittest
-from plotter import Plotter
 import os
+from .plotter import Plotter
 
 class TestPlotter(unittest.TestCase):
 
